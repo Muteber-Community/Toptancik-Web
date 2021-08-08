@@ -1,0 +1,33 @@
+.ScrollButton {
+  position: fixed;
+  bottom: 30px;
+  right: 40px;
+  z-index: 99;
+  border: none;
+  background-color: #ffbc47;
+  color: black;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 2rem;
+  font-size: 18px;
+  height: 3rem;
+}
+
+.ScrollButton:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 767px) {
+  .ScrollButton {
+    height: 2.5rem;
+    width: 2.5rem;
+    bottom: 15px;
+    right: 20px;
+    font-size: 15px;
+  }
+  .scroll-icon {
+    position: absolute;
+    right: 0.75rem;
+    bottom: 0.75rem;
+  }
+}

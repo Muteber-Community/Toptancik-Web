@@ -1,0 +1,10 @@
+.slogan {
+  font-size: 4rem;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 650px) {
+  .slogan {
+    font-size: 3rem;
+  }
+}

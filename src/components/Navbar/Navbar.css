@@ -1,0 +1,47 @@
+.logomuz {
+  height: 4.5rem;
+  margin-top: 0.2rem;
+}
+.titleRightOfLogo {
+  font-size: 1em;
+  color: #ffbc49;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: -0.2rem;
+}
+
+@media screen and (max-width: 992px) {
+  .logomuz {
+    max-height: 2.5rem;
+    margin-top: 0.2rem;
+  }
+  .titleRightOfLogo {
+    font-size: 0.6em;
+    color: #ffbc49;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: -0.2rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .logomuz {
+    max-height: 2.5rem;
+    margin-top: 0.2rem;
+  }
+  .titleRightOfLogo {
+    font-size: 0.6em;
+    color: #ffbc49;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: -0.2rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .logomuz {
+    max-height: 2.5rem;
+    margin-top: 0.2rem;
+  }
+  .titleRightOfLogo {
+    font-size: 0.6em;
+    color: #ffbc49;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: -0.2rem;
+  }
+}

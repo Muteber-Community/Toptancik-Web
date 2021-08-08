@@ -1,0 +1,56 @@
+.more {
+  display: none;
+}
+.read_more_button {
+  margin-top: -1rem;
+  margin-left: 16rem;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+  background-color: #150f0f;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  outline: none;
+  border: none;
+}
+
+.card_info {
+  max-width: 20rem;
+}
+
+.containerProductText {
+  margin-top: -15px;
+  width: 300px;
+  word-wrap: break-word;
+  line-height: 1.7rem;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.allProdButton {
+  background-color: #ffbc47;
+  border-style: none;
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+  padding-right: 1.8rem;
+  font-size: 1rem;
+  color: black;
+  text-decoration: none;
+  float: right;
+}
+@media screen and (max-width: 1024px) {
+  .allProdButton {
+    margin-right: 1rem;
+  }
+}
+.allProdButton:hover {
+  background-color: #555;
+}
+.prodIcon {
+  position: absolute;
+  margin-left: 5px;
+}
+
+.buy-icon {
+  position: relative;
+  top: 0.1rem;
+}
